@@ -1,0 +1,400 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <title>CSS GRIP</title>
+
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+        <nav class="navbar navbar-light bg-light fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand text-primary" href="index.html">MUNDO ACUATICO</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">MUNDOS ACUATICOS</h5>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <div id="list-example" class="list-group">
+                            <a class="list-group-item list-group-item-action" href="#list-item-1">Inicio</a>
+                            <a class="list-group-item list-group-item-action" href="#list-item-2">Oceanografic de
+                                Valencia</a>
+                            <a class="list-group-item list-group-item-action" href="#list-item-3">Aquarium de
+                                Barcelona</a>
+                            <a class="list-group-item list-group-item-action" href="#list-item-4">Aquarium de San
+                                Sebastian</a>
+                            <a class="list-group-item list-group-item-action" href="#list-item-5">Aquarium
+                                Finisterrae</a>
+                            <a class="list-group-item list-group-item-action" href="#list-item-6">Bioparc Acuario de
+                                Gijón</a>
+                            <a class="list-group-item list-group-item-action" href="#list-item-7">Acuario de Getxo</a>
+                            <a class="list-group-item list-group-item-action" href="#list-item-8">Acuario de
+                                Zaragoza</a>
+                            <a class="list-group-item list-group-item-action" href="#list-item-9">Loro Parque de
+                                Tenerife</a>
+                            <a class="list-group-item list-group-item-action" href="#list-item-10">Acuario de
+                                Lanzarote</a>
+                            <a class="list-group-item list-group-item-action" href="#list-item-11">Acuario de
+                                Almuñécar</a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+            <div id="carouselExampleCaptions" class="carousel slide m-5 h-25" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./img/valencia.jpeg" class="img-fluid w-100" alt="valencia">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1 class="carousel-text">MUNDOS ACUATICOS</h1>
+                            <p>Si buscas un plan diferente para hacer en familia y eres un amante de los animales y la
+                                fauna marina, echa un ojo a los mejores acuarios de España que encontrarás en esta
+                                lista.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/barcelona.jpeg" class="img-fluid w-100" alt="barcelona">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1>DESCUBRE NUEVAS EXPERIENCIAS</h1>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/almunecar.jpeg" class="img-fluid w-100" alt="almunecar">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1>CONOCE MUCHAS MAS ESPECIES MARINAS</h1>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+
+            <!========= CONTENIDO===============!>
+
+                <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0"
+                    class="scrollspy-example p-5 p-lg-5" tabindex="0">
+
+
+
+                    <div class="inicio" id="list-item-1">
+                        <h3>Los acuarios más espectaculares para visitar en España</h3>
+                        <p class="card-text">Los viajes en familia con niños y no tan niños siempre requiere de algún
+                            plan o actividad, en la que además de divertirse puedan aprender. En este aspecto, en
+                            España, los museos o en este caso los acuarios se convierten en una de esas alternativas
+                            perfectas para combinar diversión y nuevos conocimientos, como puede ser descubrimiento todo
+                            tipo de especies marinas. Especies que quizás no podrían llegar a ver de otra manera y que
+                            merece la pena pararse a observar aunque solo sea una vez en la vida.</p>
+                    </div>
+
+                    <div class="card mb-3 mt-5 " id="list-item-2">
+                        <img src="./img/valencia.jpeg" class="card-img-top w-50 m-auto mt-3" alt="...">
+                        <div class="card-body">
+                            <h2 class="card-title">Oceanografic de Valencia</h2>
+                            <p class="card-text">El Oceanogràfic de Valencia es el acuario más grande de Europa y si por
+                                algo se distingue a primera vista es por estar ubicado dentro del famoso complejo
+                                arquitectónico vanguardista de la Ciutat de les Arts i les Ciències y por encontrarse
+                                dentro de una de las ciudades más turísticas de España. En él encontraréis las especies
+                                acuáticas más fascinantes, el túnel submarino más grande de Europa por el que tendréis
+                                que cruzar mientras véis pasar sobre vosotros todo tipo de animales marinos incluidos
+                                tiburones, peceras de todos los tamaños, pingüinos, una familia de belugas, medusas o
+                                incluso un restaurante submarino en el que disfrutar de los mejores platos bajo un
+                                ambiente único y muy acogedor. </p>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <a href="https://www.oceanografic.org/" class="btn btn-primary">Pagina
+                                            Oficial</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card bottom-50" id="list-item-3">
+                        <div class="card-body">
+                            <h2 class="card-title">Aquarium de Barcelona</h2>
+                            <p class="card-text">Este enorme acuario situado en pleno puerto de Barcelona y
+                                especializado en el Mar Mediterráneo tampoco podía faltar en esta lista de los acuarios
+                                más espectaculares de España y es que en él encontraréis más de 11.000. animales. Aunque
+                                si hay algo por lo que destaca es por estar pensado casi en exclusiva para los más
+                                pequeños y también por contar con un túnel submarino de 80 metros en el que poder
+                                acercaros a todas las especies de las profundidades marinas y con ejemplares tan famosos
+                                como el tiburón toro, el jaquetón Milberto y con otras tan diversas como doradas,
+                                morenas, rayas o peces luna, entre muchos otros.</p>
+                        </div>
+                        <img src="./img/barcelona.jpeg" class="card-img-bottom w-50 m-auto mb-3" alt="...">
+
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <a href="https://www.aquariumbcn.com/" class="btn btn-primary">Pagina
+                                            Oficial</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="card mb-3" id="list-item-4">
+                        <img src="./img/san-sebastian.jpeg" class="card-img-top w-50 m-auto mt-3" alt="...">
+                        <div class="card-body">
+                            <h2 class="card-title">Aquarium de San Sebastian</h2>
+                            <p class="card-text">El Aquarium de San Sebastián es uno de los lugares más visitados de
+                                Euskadi y una de esas visitas obligadas para todos aquellos que se acerquen alguna vez a
+                                la ciudad de San Sebastián. Un acuario que se encuentra situado en uno de los lugares
+                                más pintorescos de la ciudad, concretamente en el muelle de San Sebastián, junto a la
+                                Parte Vieja y a pocos minutos del centro de la ciudad.</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <a href="https://aquariumss.com/" class="btn btn-primary">Pagina Oficial</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="card" id="list-item-5">
+                        <div class="card-body">
+                            <h2 class="card-title">Aquarium Finisterrae</h2>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
+                        <img src="./img/fenisterrae.jpeg" class="card-img-bottom w-50 m-auto mb-3" alt="...">
+
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <a href="https://www.coruna.gal/mc2/es/aquarium-finisterrae"
+                                            class="btn btn-primary">Pagina Oficial</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card mb-3" id="list-item-6">
+                        <img src="./img/acuario-guijon.jpeg" class="card-img-top w-50 m-auto mt-3" alt="...">
+                        <div class="card-body">
+                            <h2 class="card-title">Bioparc Acuario de Gijón</h2>
+                            <p class="card-text">En él, además de pequeños acuarios dedicados a la fauna marina fluvial
+                                del norte de España, también encontraréis una gran variedad de peces, anfibios y
+                                reptiles procedentes del Atlántico, el Trópico y de diferentes ríos. También podréis ver
+                                especies marinas tropicales y atlánticas. Un total de 4.600 m2 con 60 tanques de agua
+                                dulce y salada, en los que os encontraréis anémonas joya, caballitos y estrellas de mar,
+                                medusas, numerosas clases de peces, pirañas, pulpos... además de con el clásico túnel de
+                                tiburones.</p>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <a href="https://www.acuariogijon.es/" class="btn btn-primary">Pagina
+                                            Oficial</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card" id="list-item-7">
+                        <div class="card-body">
+                            <h2 class="card-title">Acuario de Getxo</h2>
+                            <p class="card-text">En este pequeño acuario, situado en el Puerto Deportivo de Getxo y
+                                junto al puerto de cruceros de Bilbao, conviven más de 300 especies procedentes de los
+                                fondos atlánticos y tropicales. Un total de 25 acuarios divididos en dos zonas dedicadas
+                                a estos diferentes ecosistemas marítimos, dos entornos completamente diferentes pero
+                                necesarios para acercarnos a comprender la riqueza natural de nuestros mares.</p>
+                        </div>
+
+                        <img src="./img/getxo.jpeg" class="card-img-bottom w-50 m-auto mb-3" alt="...">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <a href="https://hirukide.com/getxo-aquarium/#" class="btn btn-primary">Pagina
+                                            Oficial</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card mb-3" id="list-item-8">
+                        <img src="./img/zaragosa.jpeg" class="card-img-top w-50 m-auto mt-3" alt="...">
+                        <div class="card-body">
+                            <h2 class="card-title">Acuario de Zaragoza</h2>
+                            <p class="card-text">Este acuario fluvial no es sólo el más famoso de España sino que está
+                                considerado como el acuario con especies de río más grande de toda Europa. En él se
+                                pueden encontrar especies de los cinco ríos más importantes del mundo como son el Nilo,
+                                el Amazonas, Darling y por supuesto también el río Ebro. En su interior no faltan
+                                cocodrilos del Nilo, pirañas amazónicas, nutrias y numerosos tipos de peces de agua
+                                dulce.</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <a href="http://www.acuariodezaragoza.com/" class="btn btn-primary">Pagina
+                                            Oficial</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="card" id="list-item-9">
+                        <div class="card-body">
+                            <h2 class="card-title">Loro Parque de Tenerife</h2>
+                            <p class="card-text">Este parque situado en Puerto de la Cruz en la isla de Tenerife, es
+                                otro de los mejores acuarios de España, aunque también cuenta con muchas especies
+                                terrestres. En su acuario encontrarás más de 200 especies de agua dulce y salada, además
+                                de un túnel de tiburones. Aunque sin duda lo más llamativo de su área de fauna marina es
+                                el pingüinario en el cual se recrea su hábitat natural antártico.</p>
+                        </div>
+                        <img src="./img/loro-parque.jpeg" class="card-img-bottom w-50 m-auto mb-3" alt="...">
+
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <a href="https://www.loroparque.com/" class="btn btn-primary">Pagina Oficial</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="card mb-3" id="list-item-10">
+                        <img src="./img/lanzarote.jpeg" class="card-img-top w-50 m-auto mt-3" alt="...">
+                        <div class="card-body">
+                            <h2 class="card-title">Acuario de Lanzarote</h2>
+                            <p class="card-text">En el acuario de Lanzarote encontraréis desde especies de peces locales
+                                Canarios a grandes depredadores oceánicos como tiburones. Actualmente es el acuario más
+                                grande de las Islas Canarias con más de un millón de litros de agua distribuidos en 33
+                                acuarios con cientos de especies marinas. Morenas, sargos, doradas, fulas, especies
+                                tropicales con los colores más llamativos, peces payaso, anémonas, dragones de fuego,
+                                peces globo y una gran variedad de tiburones en el túnel subacuático, son algunas de las
+                                sorpresas que os depara este acuario.</p>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <a href="https://www.aquariumlanzarote.com/es/" class="btn btn-primary">Pagina
+                                            Oficial</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="card" id="list-item-11">
+                        <div class="card-body">
+                            <h2 class="card-title">Acuario de Almuñécar</h2>
+                            <p class="card-text">Este acuario situado a 500 metros de la Playa de San Cristóbal cuenta
+                                con un amplio muestrario de especies mediterráneas. Un recorrido a través del ecosistema
+                                y la fauna marina del Mediterráneo y también del litoral sexitano, con un total de 18
+                                acuarios y el impresionante Oceanario de un millón de litros de agua que encontraréis
+                                situado sobre un túnel panorámico de 17 metros de longitud. En su interior, encontraréis
+                                alrededor de 3.000 ejemplares de 270 especies diferentes entre las que destacan los
+                                impresionantes tiburones grises y toro, caballitos de mar o medusas.</p>
+                        </div>
+                        <img src="./img/almunecar.jpeg" class="card-img-bottom w-50 m-auto mb-3" alt="...">
+
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <a href="https://acuariodealmunecar.almunecar.es/"
+                                            class="btn btn-primary">Pagina Oficial</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+                    <footer>
+                        <div class="footer-content p-5">
+                            <h3>CODE OPACITY</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam autem corporis dicta,
+                                veritatis voluptate quaerat, distinctio eveniet, placeat laborum laboriosam ab totam
+                                nesciunt rerum. Assumenda reiciendis ipsum velit qui eum!</p>
+                            <ul class="socials">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li> <a href="#"><i class="fa fa-instagram"></i></a></li>
+                                <li> <a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+
+                        <div class="footer-bottom">
+                            <p>Copyright &copy;2021 GN. desinged by <span>Genesis.</span></p>
+                        </div>
+                    </footer>
+
+
+                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+                        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+                        crossorigin="anonymous"></script>
+                    <script src="js/main.js"></script>
+</body>
+
+</html>

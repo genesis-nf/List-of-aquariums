@@ -1,0 +1,158 @@
+body {
+    background: #fcfcfc;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 30px;
+   
+
+}
+
+.carousel-inner {
+
+    height: 600px;
+}
+.carousel-inner img {
+    height: 600px;
+    width: 100%;
+}
+
+.carousel-caption {
+    top: 50%;
+    font-size: 30px;
+}
+
+
+.card {
+    margin-top: 20px;
+}
+
+.inicio {
+    width: 50%;
+    margin: auto;
+}
+
+
+footer {
+    background: rgb(127, 219, 240);
+    color: #fcfcfc;
+    height: auto;
+    width: 100%;
+    font-family: Open Sans ;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3 {
+    font-size: 1.8rem;
+    font-weight: 400px;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content p {
+    max-width: 500px;
+    margin: 3px auto;
+    line-height: 18px;
+    font-size: 14px;
+
+
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 0 0;
+}
+
+.socials li {
+    margin: 0 10px;
+
+}
+
+.socials a {
+    text-decoration: none;
+    color: #fcfcfc;
+
+}
+
+.socials a i {
+    font-size: 1.1rem;
+
+}
+
+.socials a:hover {
+    color: rgb(29, 123, 230);
+}
+
+.footer-bottom {
+    background: rgb(127, 219, 240);
+    width: 100%;
+    padding:20px 0;
+    text-align: center;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+
+}
+
+.footer-bottom span {
+    text-transform: capitalize;
+    opacity: .4;
+    font-weight: 200;
+}
+
+
+@media (max-width:776px) {
+    .carousel-inner {
+        height: 200px !important;
+        width: 100% !important;
+    }
+
+    .carousel-inner img {
+        height: 200px !important;
+        width: 80% !important;
+    }
+
+    .inicio {
+        margin: 0;
+        width: 100%;
+        text-align: justify;
+    }
+
+
+
+}
+
+@media (max-width:500px) {
+    .carousel-inner {
+        height: 200px !important;
+        width: 100% !important;
+        margin: 0;
+    }
+
+    .card-body {
+        width: 100%;
+
+    }
+
+    .inicio {
+        margin: 0;
+        width: 100%;
+        text-align: justify;
+    }
+
+
+
+}
